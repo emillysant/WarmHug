@@ -7,12 +7,15 @@ import {
   SecondContainer,
   SecondImg,
   SecondText,
+  ThirdContainer,
   DiversityImg,
   Footer,
   ContainerFooter,
   AFooter,
+
   ThirdContainer,
   FourthContainer,
+
 } from "./styled";
 import mulhernegra from "../../img/mulhernegra.jpg";
 import mulheresnegras from "../../img/mulheresnegras.jpg";
@@ -38,6 +41,7 @@ const HomePage = () => {
 
   return (
     <div>
+
       <FirstContainer>
         <FirstImg src={tarjaazul} alt={""} />
         <FirstImg2 src={mulhernegra} alt={"mulher negra"} />
@@ -53,6 +57,7 @@ const HomePage = () => {
 
       <ThirdContainer>
         <SecondText>
+
           <div>
             <h1>Quer trabalhar conosco?</h1>
             <h2>Faça login e se candidate</h2>
