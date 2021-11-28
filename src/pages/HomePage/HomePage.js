@@ -7,10 +7,12 @@ import {
   SecondContainer,
   SecondImg,
   SecondText,
+  ThirdContainer,
   DiversityImg,
   Footer,
   ContainerFooter,
   AFooter,
+  ButtonDiv
 } from "./styled";
 import mulhernegra from "../../img/mulhernegra.jpg";
 import mulheresnegras from "../../img/mulheresnegras.jpg";
@@ -43,43 +45,38 @@ const HomePage = () => {
           <FirstImg src={tarjaazul} alt={""} />
           <FirstImg2 src={mulhernegra} alt={"mulher negra"}/>
         </FirstContainer>  
-        
-          {/* <FirstText>
-            <h1>Somos uma organização que entende todas as diversidades</h1>
-            <h3>
-              Acreditamos que pessoas diversas precisam de atendimento
-              direcionado de acordo com suas histórias e realidades de vida.
-              Trabalhamos principalmente com as diversidades de cor, LGBTQ+ e
-              PCD.
-            </h3>
-          </FirstText> */}
-        
         <SecondContainer>
+         <ButtonDiv> 
           <Button>
             <DiversityImg src={negro} alt={""} />
+            <legend>RACIAL</legend>
           </Button>
+         </ButtonDiv>
           <Button>
             <DiversityImg src={lgbt} alt={""} />
+            <legend>LGBTQIA+</legend>
           </Button>
           <Button>
             <DiversityImg src={pcd} alt={""} />
+            <legend>PCD</legend>
           </Button>
         </SecondContainer>
-        <FirstContainer>
+        <ThirdContainer>
           <SecondText>
             <div>
               <h1>Quer trabalhar conosco?</h1>
-              <h2>Faça login e se candidate</h2>
+              <h2>Faça o cadastro e se candidate!</h2>
             </div>
           </SecondText>
           <SecondImg src={mulheresnegras} alt={"mulheresnegras"} />
-        </FirstContainer>
-        
+        </ThirdContainer>
+        <ThirdContainer>
           <SecondImg src={maos} alt={"maos"} />
           <SecondText>
             <h2>Sua diversidade é importante para a terapia.</h2>
-            <h3> Faz login e venha conhecer nossos profissionais.</h3>
+            <h3> e venha conhecer nossos profissionais.</h3>
           </SecondText>
+        </ThirdContainer>  
       </Container>
       <Footer>
         <ContainerFooter>

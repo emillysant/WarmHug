@@ -4,28 +4,34 @@ export const FirstContainer = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   width: 100vw;
-  `;
+  position: sticky;
+`
 
 
 export const FirstImg = styled.img`
-  width: 50vw;
+  width: 60vw;
   margin: 0px;
+  top:0;
+  left:0;
+  position: absolute;
   z-index: -1;
-`;
+`
 
 export const FirstImg2 = styled.img`
   width: 60vw;
-  margin: 0;
-  z-index: 1;
+  top: 0;
+  right:0;
+  position: relative;
+  z-index:1;
 `
 
 export const FirstText = styled.div`
   text-align: center;
   margin: 75px;
   align-items: left;
-`;
+`
 
 export const SecondContainer = styled.div`
   display: flex;
@@ -49,6 +55,15 @@ export const SecondText = styled.div`
   justify-content: center;
 `;
 
+
+export const ThirdContainer = styled.div`
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+`;
+
 export const DiversityImg = styled.img`
   margin: 50px;
   width: 50%;
@@ -70,3 +85,9 @@ export const ContainerFooter = styled.div`
 export const AFooter = styled.a`
   margin-left: 18%;
 `;
+
+export const ButtonDiv = styled.div`
+  width: 200px;
+  display: flex;
+  flex-direction: row;
+`
