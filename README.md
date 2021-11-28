@@ -24,7 +24,7 @@ Criação de um plataforma de acessos para profissionais e psicólogos com espec
 
 ## Bibliotecas e links
 
-### Imagens usadas no Banco local
+### Imagens usadas na API
 
 https://sites.google.com/view/psicoterapretas/asos-psicoterapretasos
 
