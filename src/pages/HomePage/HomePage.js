@@ -2,7 +2,9 @@ import React from "react";
 import {
   FirstContainer,
   FirstImg,
+  FirstImg2,
   FirstText,
+  SecondContainer,
   SecondImg,
   SecondText,
   DiversityImg,
@@ -10,7 +12,9 @@ import {
   ContainerFooter,
   AFooter,
 } from "./styled";
+import mulhernegra from "../../img/mulhernegra.jpg";
 import mulheresnegras from "../../img/mulheresnegras.jpg";
+import tarjaazul from "../../img/tarjaazul.png";
 import maos from "../../img/maos.jpg";
 import Container from "@material-ui/core/Container";
 import pessoas from "../../img/pessoas.png";
@@ -33,10 +37,14 @@ const HomePage = () => {
 
   return (
     <div>
-      <Container fixed>
+      <Container maxWidth="100vw">
+       
         <FirstContainer>
-          <FirstImg src={pessoas} alt={""} />
-          <FirstText>
+          <FirstImg src={tarjaazul} alt={""} />
+          <FirstImg2 src={mulhernegra} alt={"mulher negra"}/>
+        </FirstContainer>  
+        
+          {/* <FirstText>
             <h1>Somos uma organização que entende todas as diversidades</h1>
             <h3>
               Acreditamos que pessoas diversas precisam de atendimento
@@ -44,9 +52,9 @@ const HomePage = () => {
               Trabalhamos principalmente com as diversidades de cor, LGBTQ+ e
               PCD.
             </h3>
-          </FirstText>
-        </FirstContainer>
-        <FirstContainer>
+          </FirstText> */}
+        
+        <SecondContainer>
           <Button>
             <DiversityImg src={negro} alt={""} />
           </Button>
@@ -56,7 +64,7 @@ const HomePage = () => {
           <Button>
             <DiversityImg src={pcd} alt={""} />
           </Button>
-        </FirstContainer>
+        </SecondContainer>
         <FirstContainer>
           <SecondText>
             <div>
@@ -66,14 +74,12 @@ const HomePage = () => {
           </SecondText>
           <SecondImg src={mulheresnegras} alt={"mulheresnegras"} />
         </FirstContainer>
-        <FirstContainer>
+        
           <SecondImg src={maos} alt={"maos"} />
-
           <SecondText>
             <h2>Sua diversidade é importante para a terapia.</h2>
             <h3> Faz login e venha conhecer nossos profissionais.</h3>
           </SecondText>
-        </FirstContainer>
       </Container>
       <Footer>
         <ContainerFooter>
