@@ -5,21 +5,40 @@ export const FirstContainer = styled.div`
   flex-direction: row;
   align-items: center;
   justify-content: center;
-`;
+  width: 100vw;
+  `;
+
 
 export const FirstImg = styled.img`
-  width: 40vw;
-  margin: 100px;
+  width: 50vw;
+  margin: 0px;
+  z-index: -1;
 `;
+
+export const FirstImg2 = styled.img`
+  width: 60vw;
+  margin: 0;
+  z-index: 1;
+`
 
 export const FirstText = styled.div`
   text-align: center;
-  margin: 100px;
+  margin: 75px;
+  align-items: left;
 `;
+
+export const SecondContainer = styled.div`
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+`;
+
 
 export const SecondImg = styled.img`
   width: 30vw;
-  margin: 100px;
+  margin: 75px;
 `;
 
 export const SecondText = styled.div`
