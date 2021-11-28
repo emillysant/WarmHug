@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import AppBar from "@material-ui/core/AppBar";
-import { StyledToolbar } from "./styled";
+import { StyledToolbar, ImgLogo } from "./styled";
 import Button from "@material-ui/core/Button";
 import {
   goToHomePage,
@@ -9,6 +9,7 @@ import {
 } from "../../routes/coordinator";
 import { useHistory } from "react-router-dom";
 import IconButton from "@material-ui/core/IconButton";
+import logo from "../../assets/logo.png"
 
 const Header = ({ rightButtonText, setRightButtonText }) => {
   const token = localStorage.getItem("token");
@@ -31,7 +32,7 @@ const Header = ({ rightButtonText, setRightButtonText }) => {
     <AppBar position="static">
       <StyledToolbar>
         <Button onClick={() => goToHomePage(history)} color="inherit">
-          WarmHug
+          <ImgLogo src={logo} alt={"Logo"}/>
         </Button>
         <div>
           {token && (
