@@ -13,7 +13,7 @@ const RecipesListPage = () => {
 
   const history = useHistory();
   const psychologists = useRequestData([], `${BASE_URL}/profissionais`);
-  console.log(psychologists);
+  //console.log(psychologists);
   
   const onClickCard = (id) => {
     goToRecipeDetail(history, id);

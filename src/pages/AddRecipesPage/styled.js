@@ -33,5 +33,5 @@ export const RecipeContainer = styled.div`
 `
 export const LogoImage = styled.img`
   width: 40vw;
-  max-width: 200px;
+  max-width: 110px;
 `;

@@ -13,7 +13,7 @@ const AddRecipePage = () => {
         <LogoImage src={psicologo} />
         <Typography
           gutterBottom
-          variant={"h4"}
+          variant={"h6"}
           align={"center"}
           color={"textPrimary"}
         >

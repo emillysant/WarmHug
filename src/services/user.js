@@ -4,6 +4,7 @@ import { goToRecipesList, goToAddRecipes } from "../routes/coordinator";
 
 export const login = (body, clear, history, setRightButtonText, setIsLoading) => {
     setIsLoading(true)
+    
     axios.post(`${BASE_URL}/login`, body)
         .then((res) => {
             localStorage.setItem("token", res.data.token)
@@ -14,7 +15,7 @@ export const login = (body, clear, history, setRightButtonText, setIsLoading) =>
         })
         .catch((err) => {
             setIsLoading(false)
-            alert(err.response.data.message)
+            alert(err)
         })
 }
 
@@ -30,7 +31,7 @@ export const signUp = (body, clear, history, setRightButtonText, setIsLoading) =
         })
         .catch((err) => {
             setIsLoading(false)
-            alert(err.response.data.message)
+            alert(err)
         })
 }
 
