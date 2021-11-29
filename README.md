@@ -10,7 +10,7 @@ FalaQueCura
 
 Criação de um plataforma de acessos para profissionais e psicólogos com especialidade em atendimento voltado para algumas minorias sociais. Os principais grupos direcionados sao os de cor, gênero e PCD.
 
-### Team
+### Time 21
 
 <ul>
 
