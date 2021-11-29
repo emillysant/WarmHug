@@ -4,7 +4,7 @@ Como a Tecnologia pode melhorar a vida de grupos diversos
 
 ## Nome do Projeto
 
-WarmHug
+FalaQueCura
 
 ### Descriçao
 
