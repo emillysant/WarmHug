@@ -26,18 +26,13 @@ const RecipeDetailPage = () => {
         <RecipeContainer>
           <RecipeImage src={psychologist.image} />
           <RecipeText>
-            <Typography
-              gutterBottom
-              align={""}
-              variant={"h6"}
-              color={"primary"}
-            >
+            <Typography gutterBottom align={""} variant={"h6"} color="inherit">
               {psychologist.name}
             </Typography>
-            <Typography align={"center"} color={"primary"}>
+            <Typography align={"center"} color="inherit">
               {psychologist.email}
             </Typography>
-            <Typography align={"center"} color={"primary"}>
+            <Typography align={"center"} color="inherit">
               {psychologist.description}
             </Typography>
           </RecipeText>

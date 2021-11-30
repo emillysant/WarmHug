@@ -51,7 +51,7 @@ const AddRecipeForm = () => {
             name={"description"}
             value={form.description}
             onChange={onChange}
-            label={"description"}
+            label={"descrição"}
             variant={"outlined"}
             fullWidth
             required
@@ -61,7 +61,7 @@ const AddRecipeForm = () => {
             name={"image"}
             value={form.image}
             onChange={onChange}
-            label={"image"}
+            label={"foto"}
             variant={"outlined"}
             fullWidth
             required
@@ -71,7 +71,7 @@ const AddRecipeForm = () => {
             name={"field"}
             value={form.field}
             onChange={onChange}
-            label={"field"}
+            label={"Abordagem Terapêutica"}
             variant={"outlined"}
             fullWidth
             required

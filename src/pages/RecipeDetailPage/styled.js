@@ -1,28 +1,33 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 export const RecipeImage = styled.img`
   width: 60vw;
   max-width: 300px;
   border-radius: 10px;
-  margin-bottom: 20px;
-`
+`;
 
 export const ScreenContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 30px;
-`
+  margin: 50px;
+`;
 
 export const RecipeContainer = styled.div`
   display: flex;
-  flex-direction: row;
-`
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+`;
 
 export const RecipeText = styled.div`
-margin-left: 100px;
-flex-direction: column;
-display: flex;
-align-items: center;
-justify-content: space-evenly;
+  margin-top: 25px;
+  margin-left: 300px;
+  margin-right: 300px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-weight: bold;
 `;
