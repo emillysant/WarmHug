@@ -4,41 +4,42 @@ export const FirstContainer = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
-
   justify-content: flex-end;
   width: 100%;
+  height: 580px;
 `;
 
-
 export const FirstImg = styled.img`
-  width: 60vw;
+  width: 49vw;
   margin: 0px;
-
   z-index: 1;
   position: absolute;
   left: 0px;
 `;
 
 export const FirstImg2 = styled.img`
-  width: 60vw;
-  height: 87vh;
-  
+  width: 57vw;
+  height: 85vh;
   display: inline-block;
 `;
-
 
 export const FirstText = styled.div`
   text-align: center;
   margin: 75px;
   align-items: left;
-`
+`;
 
 export const SecondContainer = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  margin: 100px;
+  justify-self: center;
+  margin: 100px auto auto;
+  width: 200px;
+  height: 50px;
+  background-color: #3fbfeb;
+  border-radius: 12px;
 `;
 
 export const SecondImg = styled.img`
@@ -51,17 +52,8 @@ export const SecondText = styled.div`
   margin: 100px;
   display: flex;
   flex-direction: column;
-  align-items: left;
-  justify-content: center;
-`;
-
-
-export const ThirdContainer = styled.div`
-  display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: center;
-  width: 100vw;
 `;
 
 export const DiversityImg = styled.img`
@@ -85,15 +77,14 @@ export const AFooter = styled.a`
   margin-left: 18%;
 `;
 
-
 export const ThirdContainer = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  margin: 100px;
-  background-color: #e5e4e2;
-  border-radius: 1rem;
+  padding: 80px;
+  background-color: #ffffff;
+  margin-top: 100px;
 `;
 
 export const FourthContainer = styled.div`
@@ -103,4 +94,3 @@ export const FourthContainer = styled.div`
   justify-content: space-between;
   margin: 100px;
 `;
-

@@ -29,7 +29,7 @@ const Header = ({ rightButtonText, setRightButtonText }) => {
   };
 
   return (
-    <AppBar position="static">
+    <AppBar position="fixed">
       <StyledToolbar>
         <Button onClick={() => goToHomePage(history)} color="inherit">
           <ImgLogo src={logo} alt={"Logo"}/>

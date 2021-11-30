@@ -7,15 +7,12 @@ import {
   SecondContainer,
   SecondImg,
   SecondText,
-  ThirdContainer,
   DiversityImg,
   Footer,
   ContainerFooter,
   AFooter,
-
   ThirdContainer,
   FourthContainer,
-
 } from "./styled";
 import mulhernegra from "../../img/mulhernegra.jpg";
 import mulheresnegras from "../../img/mulheresnegras.jpg";
@@ -40,8 +37,7 @@ const HomePage = () => {
   const history = useHistory();
 
   return (
-    <div>
-
+    <div style={{backgroundColor: "#D5EFEC"}}>
       <FirstContainer>
         <FirstImg src={tarjaazul} alt={""} />
         <FirstImg2 src={mulhernegra} alt={"mulher negra"} />
@@ -57,10 +53,9 @@ const HomePage = () => {
 
       <ThirdContainer>
         <SecondText>
-
+          <h1>Quer trabalhar conosco?</h1>
+          <h2>Faça login e se candidate</h2>
           <div>
-            <h1>Quer trabalhar conosco?</h1>
-            <h2>Faça login e se candidate</h2>
             <Button onClick={() => goToLogin(history)}>Cadastre-se</Button>
           </div>
         </SecondText>
@@ -70,8 +65,10 @@ const HomePage = () => {
       <FourthContainer>
         <SecondImg src={maos} alt={"maos"} />
         <SecondText>
-          <h2>Sua diversidade é importante para a terapia.</h2>
-          <h3> Faz login e venha conhecer nossos profissionais.</h3>
+          <h2>
+            Uma importante iniciativa do campo da saúde mental que vai facilitar
+            a vida de quem precisa de acompanhamento especializado!
+          </h2>
         </SecondText>
       </FourthContainer>
 
